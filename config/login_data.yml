@@ -1,0 +1,15 @@
+data:
+  mainPage:
+    url: https://bim360field.autodesk.com
+    title: BIM 360 Field Web
+
+  login:
+    emailwrong:
+      username: wendy.wu1@autodesk.com
+      password: Autodesk2
+    passwordwrng:
+      username: wendy.wu@autodesk.com
+      password: Autodesk1
+    correct:
+      username: wendy.wu@autodesk.com
+      password: Autodesk2
