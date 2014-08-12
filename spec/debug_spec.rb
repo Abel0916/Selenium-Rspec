@@ -11,7 +11,7 @@ describe 'Case1' do
   include LoginDialog
   before(:each) do
     @go=YAML.load(File.open(File.dirname(__FILE__) + '/../config/login_data.yml'))
-    @dr=Selenium::WebDriver.for :firefox
+    @dr=Selenium::WebDriver.for :chrome
     @url=@go["data"]["mainPage"]["url"]
     @dr.get @url
     @login_element=LoginMainPage.new(@dr)
