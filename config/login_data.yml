@@ -5,11 +5,11 @@ data:
 
   login:
     emailwrong:
-      username: wendy.wu1@autodesk.com
-      password: Autodesk2
+      username: 
+      password: 
     passwordwrng:
-      username: wendy.wu@autodesk.com
-      password: Autodesk1
+      username: 
+      password: 
     correct:
-      username: wendy.wu@autodesk.com
-      password: Autodesk2
+      username: 
+      password: 
